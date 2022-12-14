@@ -1,11 +1,12 @@
 html {
-		width: 100%;
+            width: 100%;
 	    height: 82vh;
-		background: linear-gradient(90deg, rgba(1,0,16,1) 1%, rgba(40,48,66,1) 32%, rgba(35,109,124,1) 66%, rgba(15,166,196,1) 90%);
+	    background:#2a4c73 url("nieve.gif") no-repeat;
+	    background-size: cover;
 	    display: flex;
 	    align-items: center;
 	    justify-content: center;
-		font-family: 'Roboto', sans-serif;
+	    font-family: 'Roboto', sans-serif;
 	    box-sizing: border-box;
 	}
 	details {
@@ -14,47 +15,47 @@ html {
 	    background-color: #3c4053;
     }
 	summary { 
-		position: relative;
-		padding: 1em .5em;
+	    position: relative;
+	    padding: 1em .5em;
 	    list-style: none; 
 	    cursor: pointer;
 
     }
     summary:after {
-		content: "-"; 
-		color: #fff; 
-		float: left; 
-		font-size: 1.3em; 
-		margin: -5px 10px 0 0;  
-		width: 20px;
+	    content: "-"; 
+	    color: #fff; 
+	    float: left; 
+	    font-size: 1.3em; 
+	    margin: -5px 10px 0 0;  
+	    width: 20px;
     }
 
 	.hijoma .hijome{
-	   	border-right: 10px solid #283042;
+	    border-right: 10px solid #283042;
 	    border-bottom: 10px solid #283042;
    	    border-left: 10px solid #283042;
 	    color: rgba(255, 2555, 255, .8);
 	    padding: 0.01em .0em;
 	}
     .hijoma {
-        margin: auto;
-    	width: 900px;
+            margin: auto;
+    	    width: 900px;
 	    padding-top: 10px;
     }
     .text {
-    	display: flex;
-    	font-size: 55px;
-    	align-items: center;
-    	justify-content: center;
-    	-webkit-text-fill-color: transparent;
-    	-webkit-text-stroke: 0.6px white;
+    	    display: flex;
+    	    font-size: 55px;
+    	    align-items: center;
+    	    justify-content: center;
+    	    -webkit-text-fill-color: transparent;
+    	    -webkit-text-stroke: 0.6px white;
     }
     .main {
-    	display: flex;
+    	    display: flex;
     }
     .main div {
-    	padding:1px;
+    	    padding:1px;
     }
     #borde {    
-	  flex: 0 1 0.1px;}
+	    flex: 0 1 0.1px;}
     }
