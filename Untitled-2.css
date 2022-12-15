@@ -1,61 +1,79 @@
-html {
-            width: 100%;
+
+	html {
+		width: 100%;
 	    height: 82vh;
-	    background:#2a4c73 url("nieve.gif") no-repeat;
-	    background-size: cover;
-	    display: flex;
-	    align-items: center;
-	    justify-content: center;
-	    font-family: 'Roboto', sans-serif;
-	    box-sizing: border-box;
+		background:#2a4c73 url("nieve.gif") no-repeat;/*2 fondos 1-fondo azul 2-fondo gif nieve*//*2 backgrounds 1-blue background 2-blue background gif snow*/
+		background-size: cover;/*Ajustar el gif de la nieve al fondo*//*Set snow gif in the background*/
+	    display: flex;/*Centrar todo*//*Center all*/
+	    align-items: center;/*Centrar todo*//*Center all*/
+	    justify-content: center;/*Centrar todo*//*Center all*/
+		font-family: 'Roboto', sans-serif;/*Tipo de tipogria*//*Type of typeface*/
 	}
-details {
-	    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4); 
-	    border-radius: 6px;
-	    background-color: #3c4053;
+	details {
+	    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4); /*Sombra que casi no se aprecia*//*Shadow that is barely visible*/
+	    border-radius: 6px;/*Hacer redondos los bordes*//*Make rounded edges*/
+	    background-color: #3c4053;/*Fondo del texto desplegado*//*Displayed text background*/
     }
-summary { 
-	    position: relative;
-	    padding: 1em .5em;
-	    list-style: none; 
-	    cursor: pointer;
+	summary { 
+		position: relative;
+		padding: 1em .5em;
+	    list-style: none; /*Quitar triángulos derecha, en dispositivos móviles no funciona*//*Right triangles removed, does not work on mobile devices*/
+	    cursor: pointer; /*Al pasar el puntero cambia de forma*//*On passing the pointer it changes shape*/
 
     }
-summary:after {
-	    content: "-"; 
-	    color: #fff; 
-	    float: left; 
-	    font-size: 1.3em; 
-	    margin: -5px 10px 0 0;  
-	    width: 20px;
+    summary:after {
+    	/*Icono que sale a la derecha*/
+    	/*Icon on the right side*/
+		content: "-"; /*Icono*/
+		color: #fff; 
+		float: left; 
+		font-size: 1.3em; 
+		margin: -5px 10px 0 0;  
+		width: 20px;
     }
 
-.hijoma .hijome{
-	    border-right: 10px solid #283042;
+    .padre{
+    	position: relative;
+    }
+    .madre,
+    .hohoho{
+    	position: absolute;
+    	transform: rotate(-45deg);/*Rotar la imagen*//*Rotate image*/
+    	top: 275px; /*Separacion del top*//*Separation of the top*/    
+    }
+    .hohoho{
+    	z-index: 10;
+    }
+	.hijoma .hijome{
+		/*Solo bordes*//*Edges only*/
+	   	border-right: 10px solid #283042;
 	    border-bottom: 10px solid #283042;
    	    border-left: 10px solid #283042;
 	    color: rgba(255, 2555, 255, .8);
 	    padding: 0.01em .0em;
 	}
- .hijoma {
-            margin: auto;
-    	    width: 900px;
-	    padding-top: 10px;
+    .hijoma {
+        margin: auto;
+    	width: 900px;/*Longitud del div*//*Length of*/
+	    padding-top: 10px;/*separación entre divs*//*separation between*/
     }
- .text {
-    	    display: flex;
-    	    font-size: 55px;
-    	    align-items: center;
-    	    justify-content: center;
-    	    -webkit-text-fill-color: transparent;
-    	    -webkit-text-stroke: 0.6px white;
+    .text {
+    	/*Texto transparente al que se le solo se le ve los bordes*/
+    	/*Transparent text with only the edges visible*/
+    	display: flex;/*Centrar texto*//*Center text*/
+    	align-items: center;/*Centrar texto*//*Center text*/
+    	justify-content: center;/*Centrar texto*//*Center text*/
+    	font-size: 55px;/*Tamaño letra*//*Type size*/
+    	-webkit-text-fill-color: transparent;/*Texto transparente*//*Transparent text*/
+    	-webkit-text-stroke: 0.6px white;/*Ver bordes,tamaño,color*//*See borders,size,size,color*/
     }
- .main {
-    	    display: flex;
+    .main {
+    	display: flex;
     }
- .main div {
-    	    padding:1px;
+    .main div {
+    	padding:1px;
     }
- #borde {    
-	    flex: 0 1 0.1px;}
+    #borde {
+
+	  flex: 0 1 0.1px; /*Ancho del borde del texto desplegado*//*Displayed text border width*/
     }
