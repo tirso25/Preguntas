@@ -2,7 +2,7 @@
 	html {
 		width: 100%;
 	    height: 82vh;
-		background:#2a4c73 url("nieve.gif") no-repeat;/*2 fondos 1-fondo azul 2-fondo gif nieve*//*2 backgrounds 1-blue background 2-blue background gif snow*/
+		background:#2a4c73;/*2 fondos 1-fondo azul 2-fondo gif nieve*//*2 backgrounds 1-blue background 2-blue background gif snow*/
 		background-size: cover;/*Ajustar el gif de la nieve al fondo*//*Set snow gif in the background*/
 	    display: flex;/*Centrar todo*//*Center all*/
 	    align-items: center;/*Centrar todo*//*Center all*/
